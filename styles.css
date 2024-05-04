@@ -1,6 +1,18 @@
+:root {
+    --cor-de-fundo: #81523F;
+    --peach: #E1CA96;
+    --slate: #627C85;
+    --orange: #FFA737;
+    --metal: #162521;
+
+}
+
+
+
 .section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
   .img {
     width: 50px;
@@ -14,8 +26,19 @@
   .img {
 
     transition: width 0.5s ease-in-out;
+
   }
   img:hover {
     width: 400px;
+  }
+
+  .corpo {
+    background-color: var(--cor-de-fundo);
+  }
+
+  .corpo__conteudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     
   }
